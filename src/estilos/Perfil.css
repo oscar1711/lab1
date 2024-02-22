@@ -1,0 +1,64 @@
+.contenedor-perfil {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.imagen-perfil {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.contenedor-texto-perfil {
+  flex: 1;
+}
+
+.nombre-perfil,
+.cargo-perfil {
+  margin-bottom: 10px;
+}
+
+.texto-perfil {
+  margin-top: 10px;
+}
+
+.contenedor-contador {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.contador {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.numero-contador {
+  margin-right: 10px;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+body {
+
+  background-color: #f2f2f2;
+
+}
